@@ -1,0 +1,1687 @@
+-------------------
+
+Error occurred on Saturday, September 28, 2024 at 10:29:29.
+
+codeblocks.exe caused a Breakpoint at location 000000007134DAB0 in module compiler.dll.
+
+AddrPC           Params
+000000007134DAB0 000000000081E310 000000000341D890 0000000070F0CC60  compiler.dll!0x8dab0
+00000000712E7FC7 000000000081E980 000000000341D570 0000000000000000  compiler.dll!0x27fc7
+00000000712E64CF 000000000341D570 0000000000000000 00000000C000013A  compiler.dll!0x264cf
+00000000712E2995 000000000341D570 00000000113DB190 000004B000000145  compiler.dll!0x22995
+000000006C103194 0000000000810000 000000000081F230 0000000000000000  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::CallEventHandler
+000000006C260372 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventIfMatchesId
+000000006C260537 000000000341D570 000000000341D5A8 000000006D153140  wxmsw313u_gcc_cb.dll!wxEventHashTable::HandleEvent
+000000006C260B8D 000000000341D570 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::TryHereOnly
+000000006C260BFD 0000000000000000 000000001567CAF0 000000001567CAF0  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventLocally
+000000006C260CE1 0000000011200420 0000000000000084 00000000113DB190  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEvent
+000000006C261E5C 0000000000000001 00000000002F7000 00000000029760A0  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessPendingEvents
+000000006C1055DF 00000000108F6830 00000000702E53E7 000000001509D020  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::ProcessPendingEvents
+000000006CCCB999 00000000034979F0 000000000081F680 00000000029760A0  wxmsw313u_gcc_cb.dll!wxIdleWakeUpModule::MsgHookProc
+00007FF835E57944 0000000000000000 00007FF835E47F9C 0000000000000388  USER32.dll!DispatchHookW
+00007FF835E549EF 0000000000000001 00000000029760A0 000000000081F758  USER32.dll!CallHookWithSEH
+00007FF835E54936 0000000000000000 0000000000000000 0000000000000001  USER32.dll!__fnHkINLPMSG
+00007FF837EB4174 00007FF835E51BEF 000000000081F7A0 000000006C103194  ntdll.dll!KiUserCallbackDispatch
+00007FF8359E14D4 000000000081F7A0 000000006C103194 0000000000000000  win32u.dll!NtUserPeekMessage
+00007FF835E51BEF 0000000000000001 00000000002F7800 0000000000000000  USER32.dll!_PeekMessage
+00007FF835E51ABC 0000000000000001 000000000081F9E0 000000001141BFD0  USER32.dll!PeekMessageW
+000000006C219D4C 00000000113AE020 0000000000000000 000000000081FA00  wxmsw313u_gcc_cb.dll!wxMSWEventLoopBase::GetNextMessageTimeout
+000000006C21A2FF 0000000000000000 000000006C10554F 00000000113ADCE0  wxmsw313u_gcc_cb.dll!wxMSWEventLoopBase::GetNextMessage
+000000006C38F39A 0000000000000000 0000000000010000 000000001141BFB0  wxmsw313u_gcc_cb.dll!wxGUIEventLoop::Dispatch
+000000006C1375A3 000000000081FC00 00007FF837D3CB80 000000001141BFB0  wxmsw313u_gcc_cb.dll!wxEventLoopManual::ProcessEvents
+000000006C137671 00000000029760A0 000000001141BFB0 0000000000000008  wxmsw313u_gcc_cb.dll!wxEventLoopManual::DoRun
+000000006C137309 00000000112B30C0 000000020000001C 0000000011395F80  wxmsw313u_gcc_cb.dll!wxEventLoopBase::Run
+000000006C107F1A 000000000000003A 000000000000001C 000000000081FD00  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::MainLoop
+0000000000405422 00000000029760A0 000000006C26D6BB 00000000000D728A  codeblocks.exe!0x5422
+000000006C17FBD5 0000000000000008 000000000000001D 0000000002930070  wxmsw313u_gcc_cb.dll!wxEntryReal
+0000000000402291 0000000000400000 0000000000000000 00000000000D7F1F  codeblocks.exe!0x2291
+00000000004013C7 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x13c7
+00000000004014CB 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x14cb
+00007FF83621257D 0000000000000000 0000000000000000 0000000000000000  KERNEL32.DLL!BaseThreadInitThunk
+00007FF837E6AF28 0000000000000000 0000000000000000 0000000000000000  ntdll.dll!RtlUserThreadStart
+
+codeblocks.exe	20.3.0.0
+ntdll.dll   	10.0.22621.4111
+KERNEL32.DLL	10.0.22621.3958
+KERNELBASE.dll	10.0.22621.4111
+apphelp.dll 	10.0.22621.3810
+msvcrt.dll  	7.0.22621.2506
+SHELL32.dll 	10.0.22621.4111
+msvcp_win.dll	10.0.22621.3374
+COMCTL32.dll	6.10.22621.3672
+ucrtbase.dll	10.0.22621.3593
+GDI32.dll   	10.0.22621.4036
+libgcc_s_seh-1.dll
+USER32.dll  	10.0.22621.4111
+win32u.dll  	10.0.22621.4169
+gdi32full.dll	10.0.22621.3958
+libwinpthread-1.dll	1.0.0.0
+libstdc++-6.dll
+SHFOLDER.dll	10.0.22621.1
+exchndl.dll 	0.9.1.0
+ADVAPI32.dll	10.0.22621.3810
+sechost.dll 	10.0.22621.3810
+bcrypt.dll  	10.0.22621.2506
+RPCRT4.dll  	10.0.22621.3810
+PSAPI.DLL   	10.0.22621.1
+VERSION.dll 	10.0.22621.1
+mgwhelp.dll 	0.9.1.0
+dbghelp.dll 	10.0.17134.12
+dbgcore.DLL 	10.0.17134.12
+wxmsw313u_gcc_cb.dll	3.1.3.0
+comdlg32.dll	10.0.22621.4111
+combase.dll 	10.0.22621.4111
+shcore.dll  	10.0.22621.4111
+SHLWAPI.dll 	10.0.22621.3672
+ole32.dll   	10.0.22621.3958
+OLEAUT32.dll	10.0.22621.3672
+UxTheme.dll 	10.0.22621.4111
+OLEACC.dll  	7.2.22621.1
+WINMM.dll   	10.0.22621.3672
+WINSPOOL.DRV	10.0.22621.3810
+WSOCK32.dll 	10.0.22621.1
+WS2_32.dll  	10.0.22621.1
+codeblocks.dll
+IMM32.DLL   	10.0.22621.3374
+CRYPTSP.dll 	10.0.22621.3672
+rsaenh.dll  	10.0.22621.1
+CRYPTBASE.dll	10.0.22621.1
+bcryptPrimitives.dll	10.0.22621.3672
+kernel.appcore.dll	10.0.22621.3958
+windows.storage.dll	10.0.22621.4169
+wintypes.dll	10.0.22621.3810
+MSCTF.dll   	10.0.22621.4111
+SspiCli.dll 	10.0.22621.3810
+textinputframework.dll	10.0.22621.4111
+CoreMessaging.dll	10.0.22621.3672
+CoreUIComponents.dll	10.0.22621.3672
+clbcatq.dll 	2001.12.10941.16384
+SogouTSF.ime	14.6.0.9606
+CRYPT32.dll 	10.0.22621.4169
+MSIMG32.dll 	10.0.22621.2506
+SogouPY.ime 	14.6.0.9606
+WINHTTP.dll 	10.0.22621.3958
+ntmarta.dll 	10.0.22621.1
+profapi.dll 	10.0.22621.4111
+PicFace64.dll	1.1.0.2326
+Resource.dll	14.6.0.9606
+dwmapi.dll  	10.0.22621.3672
+TextShaping.dll	10.0.22621.4036
+dataexchange.dll	10.0.22621.3672
+twinapi.appcore.dll	10.0.22621.4111
+WindowsCodecs.dll	10.0.22621.3880
+msftedit.DLL	10.0.22621.4111
+Windows.Globalization.dll	10.0.22621.3672
+globinputhost.dll	10.0.22621.3672
+Bcp47Langs.dll	10.0.22621.3672
+abbreviations.dll
+astyle.dll
+autosave.dll
+AutoVersioning.dll
+BrowseTracker.dll
+byogames.dll
+cb_koders.dll
+Cccc.dll
+classwizard.dll
+codecompletion.dll
+codesnippets.dll
+codestat.dll
+compiler.dll
+copystrings.dll
+CppCheck.dll
+Cscope.dll
+debugger.dll
+defaultmimehandler.dll
+devpakupdater.dll
+DoxyBlocks.dll	1.7.663.8397
+DragScroll.dll
+EditorConfig.dll
+EditorTweaks.dll
+envvars.dll
+Exporter.dll
+FileManager.dll
+FortranProject.dll
+headerfixup.dll
+help_plugin.dll
+HHCTRL.OCX  	10.0.22621.1
+HexEditor.dll
+IncrementalSearch.dll
+keybinder.dll
+lib_finder.dll
+wxflatnotebook.dll
+MouseSap.dll
+NassiShneiderman.dll
+OccurrencesHighlighting.dll
+openfileslist.dll
+Profiler.dll
+ProjectOptionsManipulator.dll
+projectsimporter.dll
+RegExTestbed.dll
+ReopenEditor.dll
+rndgen.dll
+scriptedwizard.dll
+SmartIndentCpp.dll
+SmartIndentFortran.dll
+SmartIndentHDL.dll
+SmartIndentLua.dll
+SmartIndentPascal.dll
+SmartIndentPython.dll
+SmartIndentXML.dll
+SpellChecker.dll
+SymTab.dll
+ThreadSearch.dll
+wxcustombutton.dll
+todo.dll
+ToolsPlus.dll
+wxsmith.dll
+wxsmithlib.dll
+wxSmithAui.dll
+wxSmithContribItems.dll
+wxdatetimepicker.dll
+wxchartctrl.dll
+wxkwic.dll
+wxspeedbutton.dll
+wxled.dll
+wxmathplot.dll
+wximagepanel.dll
+xpmanifest.dll
+DUser.dll   	10.0.22621.1
+atlthunk.dll	10.0.22621.1
+symsrv.dll  	10.0.17134.12
+WININET.dll 	11.0.22621.3958
+iertutil.dll	11.0.22621.4169
+srvcli.dll  	10.0.22621.3374
+netutils.dll	10.0.22621.2506
+ondemandconnroutehelper.dll	10.0.22621.3527
+mswsock.dll 	10.0.22621.2506
+IPHLPAPI.DLL	10.0.22621.1
+NSI.dll     	10.0.22621.1
+WINNSI.DLL  	10.0.22621.1
+urlmon.dll  	11.0.22621.4169
+DNSAPI.dll  	10.0.22621.4111
+rasadhlp.dll	10.0.22621.1
+fwpuclnt.dll	10.0.22621.3235
+schannel.DLL	10.0.22621.4111
+ncrypt.dll  	10.0.22621.3672
+NTASN1.dll  	10.0.22621.1
+ncryptsslp.dll	10.0.22621.2506
+MSASN1.dll  	10.0.22621.2506
+DPAPI.DLL   	10.0.22621.1
+WINTRUST.dll	10.0.22621.4111
+
+Windows 10.0.22631
+DrMingw 0.9.1
+
+-------------------
+
+Error occurred on Saturday, September 28, 2024 at 10:30:59.
+
+codeblocks.exe caused a Breakpoint at location 000000007134DAB0 in module compiler.dll.
+
+AddrPC           Params
+000000007134DAB0 000000000081E810 000000000E83D210 0000000070F0CC60  compiler.dll!0x8dab0
+00000000712E7FC7 000000000081EE80 000000000E83CEF0 0000000000000000  compiler.dll!0x27fc7
+00000000712E64CF 000000000E83CEF0 0000000000000000 0000000000000000  compiler.dll!0x264cf
+00000000712E2995 000000000E83CEF0 00000000113D6D50 000000000081F760  compiler.dll!0x22995
+000000006C103194 0000000000000001 000000006C260372 000000000081F760  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::CallEventHandler
+000000006C260372 0000000000000000 000000006C260537 00000000034FD3C0  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventIfMatchesId
+000000006C260537 000000000E83CEF0 000000000E83CF28 000000006D153140  wxmsw313u_gcc_cb.dll!wxEventHashTable::HandleEvent
+000000006C260B8D 000000000E83CEF0 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::TryHereOnly
+000000006C260BFD 0000000000000000 000000001573DD40 000000001573DD40  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventLocally
+000000006C260CE1 000000001148F1E0 000000006C260BFD 00000000113D6D50  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEvent
+000000006C261E5C 000000001127FE60 000000001101ECD0 0000000002A060A0  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessPendingEvents
+000000006C1055DF 0000000000000000 0000000000010000 0000000011463A20  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::ProcessPendingEvents
+000000006C137594 000000000081FC00 00007FF837D3CB80 0000000011463A20  wxmsw313u_gcc_cb.dll!wxEventLoopManual::ProcessEvents
+000000006C137671 0000000002A060A0 0000000011463A20 0000000000000008  wxmsw313u_gcc_cb.dll!wxEventLoopManual::DoRun
+000000006C137309 00000000112D3350 000000020000001C 00000000114CCFC0  wxmsw313u_gcc_cb.dll!wxEventLoopBase::Run
+000000006C107F1A 000000000000003A 000000000000001C 000000000081FD00  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::MainLoop
+0000000000405422 0000000002A060A0 000000006C26D6BB 000000000088728A  codeblocks.exe!0x5422
+000000006C17FBD5 0000000000000008 000000000000001D 00000000029C05B0  wxmsw313u_gcc_cb.dll!wxEntryReal
+0000000000402291 0000000000400000 0000000000000000 0000000000887F1F  codeblocks.exe!0x2291
+00000000004013C7 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x13c7
+00000000004014CB 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x14cb
+00007FF83621257D 0000000000000000 0000000000000000 0000000000000000  KERNEL32.DLL!BaseThreadInitThunk
+00007FF837E6AF28 0000000000000000 0000000000000000 0000000000000000  ntdll.dll!RtlUserThreadStart
+
+codeblocks.exe	20.3.0.0
+ntdll.dll   	10.0.22621.4111
+KERNEL32.DLL	10.0.22621.3958
+KERNELBASE.dll	10.0.22621.4111
+msvcrt.dll  	7.0.22621.2506
+SHELL32.dll 	10.0.22621.4111
+msvcp_win.dll	10.0.22621.3374
+COMCTL32.dll	6.10.22621.3672
+libgcc_s_seh-1.dll
+ucrtbase.dll	10.0.22621.3593
+GDI32.dll   	10.0.22621.4036
+libwinpthread-1.dll	1.0.0.0
+USER32.dll  	10.0.22621.4111
+win32u.dll  	10.0.22621.4169
+gdi32full.dll	10.0.22621.3958
+SHFOLDER.dll	10.0.22621.1
+codeblocks.dll
+libstdc++-6.dll
+wxmsw313u_gcc_cb.dll	3.1.3.0
+exchndl.dll 	0.9.1.0
+ADVAPI32.dll	10.0.22621.3810
+PSAPI.DLL   	10.0.22621.1
+sechost.dll 	10.0.22621.3810
+bcrypt.dll  	10.0.22621.2506
+RPCRT4.dll  	10.0.22621.3810
+mgwhelp.dll 	0.9.1.0
+comdlg32.dll	10.0.22621.4111
+combase.dll 	10.0.22621.4111
+shcore.dll  	10.0.22621.4111
+VERSION.dll 	10.0.22621.1
+SHLWAPI.dll 	10.0.22621.3672
+ole32.dll   	10.0.22621.3958
+OLEAUT32.dll	10.0.22621.3672
+dbghelp.dll 	10.0.17134.12
+UxTheme.dll 	10.0.22621.4111
+OLEACC.dll  	7.2.22621.1
+WINMM.dll   	10.0.22621.3672
+WINSPOOL.DRV	10.0.22621.3810
+WSOCK32.dll 	10.0.22621.1
+WS2_32.dll  	10.0.22621.1
+dbgcore.DLL 	10.0.17134.12
+IMM32.DLL   	10.0.22621.3374
+CRYPTSP.dll 	10.0.22621.3672
+rsaenh.dll  	10.0.22621.1
+CRYPTBASE.dll	10.0.22621.1
+bcryptPrimitives.dll	10.0.22621.3672
+kernel.appcore.dll	10.0.22621.3958
+windows.storage.dll	10.0.22621.4169
+wintypes.dll	10.0.22621.3810
+MSCTF.dll   	10.0.22621.4111
+SspiCli.dll 	10.0.22621.3810
+textinputframework.dll	10.0.22621.4111
+CoreMessaging.dll	10.0.22621.3672
+CoreUIComponents.dll	10.0.22621.3672
+clbcatq.dll 	2001.12.10941.16384
+SogouTSF.ime	14.6.0.9606
+CRYPT32.dll 	10.0.22621.4169
+MSIMG32.dll 	10.0.22621.2506
+SogouPY.ime 	14.6.0.9606
+WINHTTP.dll 	10.0.22621.3958
+ntmarta.dll 	10.0.22621.1
+profapi.dll 	10.0.22621.4111
+PicFace64.dll	1.1.0.2326
+Resource.dll	14.6.0.9606
+dwmapi.dll  	10.0.22621.3672
+TextShaping.dll	10.0.22621.4036
+dataexchange.dll	10.0.22621.3672
+twinapi.appcore.dll	10.0.22621.4111
+WindowsCodecs.dll	10.0.22621.3880
+msftedit.DLL	10.0.22621.4111
+Windows.Globalization.dll	10.0.22621.3672
+globinputhost.dll	10.0.22621.3672
+Bcp47Langs.dll	10.0.22621.3672
+abbreviations.dll
+astyle.dll
+autosave.dll
+AutoVersioning.dll
+BrowseTracker.dll
+byogames.dll
+cb_koders.dll
+Cccc.dll
+classwizard.dll
+codecompletion.dll
+codesnippets.dll
+codestat.dll
+compiler.dll
+copystrings.dll
+CppCheck.dll
+Cscope.dll
+debugger.dll
+defaultmimehandler.dll
+devpakupdater.dll
+DoxyBlocks.dll	1.7.663.8397
+DragScroll.dll
+EditorConfig.dll
+EditorTweaks.dll
+envvars.dll
+Exporter.dll
+FileManager.dll
+FortranProject.dll
+headerfixup.dll
+help_plugin.dll
+HHCTRL.OCX  	10.0.22621.1
+HexEditor.dll
+IncrementalSearch.dll
+keybinder.dll
+lib_finder.dll
+wxflatnotebook.dll
+MouseSap.dll
+NassiShneiderman.dll
+OccurrencesHighlighting.dll
+openfileslist.dll
+Profiler.dll
+ProjectOptionsManipulator.dll
+projectsimporter.dll
+RegExTestbed.dll
+ReopenEditor.dll
+rndgen.dll
+scriptedwizard.dll
+SmartIndentCpp.dll
+SmartIndentFortran.dll
+SmartIndentHDL.dll
+SmartIndentLua.dll
+SmartIndentPascal.dll
+SmartIndentPython.dll
+SmartIndentXML.dll
+SpellChecker.dll
+SymTab.dll
+ThreadSearch.dll
+wxcustombutton.dll
+todo.dll
+ToolsPlus.dll
+wxsmith.dll
+wxsmithlib.dll
+wxSmithAui.dll
+wxSmithContribItems.dll
+wxdatetimepicker.dll
+wxchartctrl.dll
+wxkwic.dll
+wxled.dll
+wxmathplot.dll
+wxspeedbutton.dll
+wximagepanel.dll
+xpmanifest.dll
+DUser.dll   	10.0.22621.1
+atlthunk.dll	10.0.22621.1
+symsrv.dll  	10.0.17134.12
+WININET.dll 	11.0.22621.3958
+iertutil.dll	11.0.22621.4169
+srvcli.dll  	10.0.22621.3374
+netutils.dll	10.0.22621.2506
+ondemandconnroutehelper.dll	10.0.22621.3527
+mswsock.dll 	10.0.22621.2506
+IPHLPAPI.DLL	10.0.22621.1
+NSI.dll     	10.0.22621.1
+WINNSI.DLL  	10.0.22621.1
+urlmon.dll  	11.0.22621.4169
+DNSAPI.dll  	10.0.22621.4111
+rasadhlp.dll	10.0.22621.1
+fwpuclnt.dll	10.0.22621.3235
+
+Windows 10.0.22631
+DrMingw 0.9.1
+
+-------------------
+
+Error occurred on Saturday, September 28, 2024 at 10:32:08.
+
+codeblocks.exe caused a Breakpoint at location 000000007134DAB0 in module compiler.dll.
+
+AddrPC           Params
+000000007134DAB0 000000000081E310 0000000003615110 0000000070F0CC60  compiler.dll!0x8dab0
+00000000712E7FC7 000000000081E980 0000000003614DF0 0000000000000000  compiler.dll!0x27fc7
+00000000712E64CF 0000000003614DF0 0000000000000000 00000000C000013A  compiler.dll!0x264cf
+00000000712E2995 0000000003614DF0 000000001131E380 000004B00000002B  compiler.dll!0x22995
+000000006C103194 0000000000810000 000000000081F230 0000000000000000  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::CallEventHandler
+000000006C260372 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventIfMatchesId
+000000006C260537 0000000003614DF0 0000000003614E28 000000006D153140  wxmsw313u_gcc_cb.dll!wxEventHashTable::HandleEvent
+000000006C260B8D 0000000003614DF0 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::TryHereOnly
+000000006C260BFD 0000000000000000 00000000156C6630 00000000156C6630  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventLocally
+000000006C260CE1 0000000015547870 0000000000000084 000000001131E380  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEvent
+000000006C261E5C 0000000000000001 0000000000268000 00000000029560A0  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessPendingEvents
+000000006C1055DF 00007FF8306137FC 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::ProcessPendingEvents
+000000006CCCB999 0000000003458DA0 000000000081F680 00000000029560A0  wxmsw313u_gcc_cb.dll!wxIdleWakeUpModule::MsgHookProc
+00007FF835E57944 0000000000000000 00007FF835E47F9C 0000000000000388  USER32.dll!DispatchHookW
+00007FF835E549EF 0000000000000001 00000000029560A0 000000000081F758  USER32.dll!CallHookWithSEH
+00007FF835E54936 0000000000000000 0000000000000000 0000000000000001  USER32.dll!__fnHkINLPMSG
+00007FF837EB4174 00007FF835E51BEF 000000000081F7A0 000000006C103194  ntdll.dll!KiUserCallbackDispatch
+00007FF8359E14D4 000000000081F7A0 000000006C103194 0000000000000000  win32u.dll!NtUserPeekMessage
+00007FF835E51BEF 0000000000000001 0000000000268800 0000000000000000  USER32.dll!_PeekMessage
+00007FF835E51ABC 0000000000000001 000000000081F9E0 0000000011453600  USER32.dll!PeekMessageW
+000000006C219D4C 00000000112F84A0 0000000000000000 000000000081FA00  wxmsw313u_gcc_cb.dll!wxMSWEventLoopBase::GetNextMessageTimeout
+000000006C21A2FF 0000000000000000 000000006C10554F 00000000112F88E0  wxmsw313u_gcc_cb.dll!wxMSWEventLoopBase::GetNextMessage
+000000006C38F39A 0000000000000000 0000000000010000 00000000114535E0  wxmsw313u_gcc_cb.dll!wxGUIEventLoop::Dispatch
+000000006C1375A3 000000000081FC00 00007FF837D3CB80 00000000114535E0  wxmsw313u_gcc_cb.dll!wxEventLoopManual::ProcessEvents
+000000006C137671 00000000029560A0 00000000114535E0 0000000000000008  wxmsw313u_gcc_cb.dll!wxEventLoopManual::DoRun
+000000006C137309 00000000113A1900 000000020000001C 0000000011497D00  wxmsw313u_gcc_cb.dll!wxEventLoopBase::Run
+000000006C107F1A 000000000000003A 000000000000001C 000000000081FD00  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::MainLoop
+0000000000405422 00000000029560A0 000000006C26D6BB 000000000091728A  codeblocks.exe!0x5422
+000000006C17FBD5 0000000000000008 000000000000001D 0000000002910230  wxmsw313u_gcc_cb.dll!wxEntryReal
+0000000000402291 0000000000400000 0000000000000000 0000000000917F1F  codeblocks.exe!0x2291
+00000000004013C7 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x13c7
+00000000004014CB 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x14cb
+00007FF83621257D 0000000000000000 0000000000000000 0000000000000000  KERNEL32.DLL!BaseThreadInitThunk
+00007FF837E6AF28 0000000000000000 0000000000000000 0000000000000000  ntdll.dll!RtlUserThreadStart
+
+codeblocks.exe	20.3.0.0
+ntdll.dll   	10.0.22621.4111
+KERNEL32.DLL	10.0.22621.3958
+KERNELBASE.dll	10.0.22621.4111
+msvcrt.dll  	7.0.22621.2506
+SHELL32.dll 	10.0.22621.4111
+msvcp_win.dll	10.0.22621.3374
+COMCTL32.dll	6.10.22621.3672
+ucrtbase.dll	10.0.22621.3593
+libgcc_s_seh-1.dll
+GDI32.dll   	10.0.22621.4036
+USER32.dll  	10.0.22621.4111
+win32u.dll  	10.0.22621.4169
+libwinpthread-1.dll	1.0.0.0
+gdi32full.dll	10.0.22621.3958
+SHFOLDER.dll	10.0.22621.1
+libstdc++-6.dll
+codeblocks.dll
+wxmsw313u_gcc_cb.dll	3.1.3.0
+exchndl.dll 	0.9.1.0
+ADVAPI32.dll	10.0.22621.3810
+sechost.dll 	10.0.22621.3810
+comdlg32.dll	10.0.22621.4111
+mgwhelp.dll 	0.9.1.0
+bcrypt.dll  	10.0.22621.2506
+PSAPI.DLL   	10.0.22621.1
+combase.dll 	10.0.22621.4111
+RPCRT4.dll  	10.0.22621.3810
+shcore.dll  	10.0.22621.4111
+SHLWAPI.dll 	10.0.22621.3672
+dbghelp.dll 	10.0.17134.12
+ole32.dll   	10.0.22621.3958
+OLEAUT32.dll	10.0.22621.3672
+VERSION.dll 	10.0.22621.1
+OLEACC.dll  	7.2.22621.1
+UxTheme.dll 	10.0.22621.4111
+WINMM.dll   	10.0.22621.3672
+WINSPOOL.DRV	10.0.22621.3810
+WSOCK32.dll 	10.0.22621.1
+dbgcore.DLL 	10.0.17134.12
+WS2_32.dll  	10.0.22621.1
+IMM32.DLL   	10.0.22621.3374
+CRYPTSP.dll 	10.0.22621.3672
+rsaenh.dll  	10.0.22621.1
+CRYPTBASE.dll	10.0.22621.1
+bcryptPrimitives.dll	10.0.22621.3672
+kernel.appcore.dll	10.0.22621.3958
+windows.storage.dll	10.0.22621.4169
+wintypes.dll	10.0.22621.3810
+MSCTF.dll   	10.0.22621.4111
+SspiCli.dll 	10.0.22621.3810
+textinputframework.dll	10.0.22621.4111
+CoreMessaging.dll	10.0.22621.3672
+CoreUIComponents.dll	10.0.22621.3672
+clbcatq.dll 	2001.12.10941.16384
+SogouTSF.ime	14.6.0.9606
+CRYPT32.dll 	10.0.22621.4169
+MSIMG32.dll 	10.0.22621.2506
+SogouPY.ime 	14.6.0.9606
+WINHTTP.dll 	10.0.22621.3958
+ntmarta.dll 	10.0.22621.1
+profapi.dll 	10.0.22621.4111
+PicFace64.dll	1.1.0.2326
+Resource.dll	14.6.0.9606
+dwmapi.dll  	10.0.22621.3672
+TextShaping.dll	10.0.22621.4036
+dataexchange.dll	10.0.22621.3672
+twinapi.appcore.dll	10.0.22621.4111
+WindowsCodecs.dll	10.0.22621.3880
+msftedit.DLL	10.0.22621.4111
+Windows.Globalization.dll	10.0.22621.3672
+globinputhost.dll	10.0.22621.3672
+Bcp47Langs.dll	10.0.22621.3672
+abbreviations.dll
+astyle.dll
+autosave.dll
+AutoVersioning.dll
+BrowseTracker.dll
+byogames.dll
+cb_koders.dll
+Cccc.dll
+classwizard.dll
+codecompletion.dll
+codesnippets.dll
+codestat.dll
+compiler.dll
+copystrings.dll
+CppCheck.dll
+Cscope.dll
+debugger.dll
+defaultmimehandler.dll
+devpakupdater.dll
+DoxyBlocks.dll	1.7.663.8397
+DragScroll.dll
+EditorConfig.dll
+EditorTweaks.dll
+envvars.dll
+Exporter.dll
+FileManager.dll
+FortranProject.dll
+headerfixup.dll
+help_plugin.dll
+HHCTRL.OCX  	10.0.22621.1
+HexEditor.dll
+IncrementalSearch.dll
+keybinder.dll
+lib_finder.dll
+wxflatnotebook.dll
+MouseSap.dll
+NassiShneiderman.dll
+OccurrencesHighlighting.dll
+openfileslist.dll
+Profiler.dll
+ProjectOptionsManipulator.dll
+projectsimporter.dll
+RegExTestbed.dll
+ReopenEditor.dll
+rndgen.dll
+scriptedwizard.dll
+SmartIndentCpp.dll
+SmartIndentFortran.dll
+SmartIndentHDL.dll
+SmartIndentLua.dll
+SmartIndentPascal.dll
+SmartIndentPython.dll
+SmartIndentXML.dll
+SpellChecker.dll
+SymTab.dll
+ThreadSearch.dll
+wxcustombutton.dll
+todo.dll
+ToolsPlus.dll
+wxsmith.dll
+wxsmithlib.dll
+wxSmithAui.dll
+wxSmithContribItems.dll
+wxdatetimepicker.dll
+wxchartctrl.dll
+wxkwic.dll
+wxled.dll
+wxmathplot.dll
+wxspeedbutton.dll
+wximagepanel.dll
+xpmanifest.dll
+tiptsf.dll  	10.0.22621.3672
+edputil.dll 	10.0.22621.3527
+thumbcache.dll	10.0.22621.3672
+OneCoreCommonProxyStub.dll	10.0.22621.4111
+vaultcli.dll	10.0.22621.3527
+CFGMGR32.dll	10.0.22621.2506
+propsys.dll 	7.0.22621.3810
+Windows.FileExplorer.Common.dll	10.0.22621.4111
+ntshrui.dll 	10.0.22621.4111
+srvcli.dll  	10.0.22621.3374
+cscapi.dll  	10.0.22621.1
+Windows.StateRepositoryPS.dll	10.0.22621.4036
+windows.staterepositoryclient.dll	10.0.22621.4036
+StructuredQuery.dll	7.0.22621.3672
+OneCoreUAPCommonProxyStub.dll	10.0.22621.4111
+Windows.System.Launcher.dll	10.0.22621.4111
+msvcp110_win.dll	10.0.22621.1
+windows.staterepositorycore.dll	10.0.22621.4036
+Windows.Storage.Search.dll	10.0.22621.4111
+cldapi.dll  	10.0.22621.2506
+urlmon.dll  	11.0.22621.4169
+iertutil.dll	11.0.22621.4169
+netutils.dll	10.0.22621.2506
+apphelp.dll 	10.0.22621.3810
+FileSyncShell64.dll	24.171.825.2
+WININET.dll 	11.0.22621.3958
+WTSAPI32.dll	10.0.22621.1
+Secur32.dll 	10.0.22621.1
+USERENV.dll 	10.0.22621.3527
+MrmCoreR.dll	10.0.22621.3672
+YunShellExtV164.dll	7.45.0.101
+gdiplus.dll 	10.0.22621.3810
+atlthunk.dll	10.0.22621.1
+EhStorShell.dll	10.0.22621.1
+SETUPAPI.dll	10.0.22621.2506
+virtdisk.dll	10.0.22621.3672
+Wldp.dll    	10.0.22621.4036
+appresolver.dll	10.0.22621.4111
+DUser.dll   	10.0.22621.1
+symsrv.dll  	10.0.17134.12
+ondemandconnroutehelper.dll	10.0.22621.3527
+mswsock.dll 	10.0.22621.2506
+IPHLPAPI.DLL	10.0.22621.1
+NSI.dll     	10.0.22621.1
+WINNSI.DLL  	10.0.22621.1
+DNSAPI.dll  	10.0.22621.4111
+rasadhlp.dll	10.0.22621.1
+fwpuclnt.dll	10.0.22621.3235
+
+Windows 10.0.22631
+DrMingw 0.9.1
+
+-------------------
+
+Error occurred on Monday, October 21, 2024 at 22:10:15.
+
+codeblocks.exe caused an Access Violation at location 0000000009B77978 in module wxsmithlib.dll Reading from location 0000000000000340.
+
+AddrPC           Params
+0000000009B77978 0000000000000000 000000000DC8F390 00000000000027F2  wxsmithlib.dll!wxsResourceTree::InvalidateItemData
+0000000009B77EF9 000000000DC8F390 00000000095ED3F0 00000000095ED3F0  wxsmithlib.dll!wxsResourceTreeItemData::~wxsResourceTreeItemData
+0000000009B77A34 000000000DC8F390 00000000095ED3F0 00000000008197D0  wxsmithlib.dll!wxsResourceTree::OnPopupMenu
+0000000009B77A51 000000000DC8F390 00000000008197C0 0000000000819830  wxsmithlib.dll!wxsResourceTree::OnPopupMenu
+000000006C4626DD 0000000000000000 0000000080009000 0000000000000000  wxmsw313u_gcc_cb.dll!wxTreeCtrl::MSWOnNotify
+000000006C36F3BE 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWHandleMessage
+-------------------
+
+Error occurred on Thursday, October 24, 2024 at 18:47:11.
+
+codeblocks.exe caused an Access Violation at location 000000006C36E5A5 in module wxmsw313u_gcc_cb.dll Reading from location 0000000000000B3C.
+
+AddrPC           Params
+000000006C36E5A5 000000000081EBB0 00007FF8459D2BB1 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWShowWithEffect
+000000006C5A29A3 0000000000000000 0000000000000000 0000000900000008  wxmsw313u_gcc_cb.dll!wxWindowBase::GetFont
+000000006C361EE6 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::DoGetTextExtent
+000000006C360454 0000000000000000 000000000000001C 0000002100000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWWindowProc
+00007FF849A45801 00000000C0000388 000000006C3681C0 0000000000090D36  USER32.dll!UserCallWinProcCheckWow
+00007FF849A4509C 0000000000000000 0000000000000000 0000000000000000  USER32.dll!DispatchClientMessage
+00007FF849A762C3 0000000000000000 0000000000000000 0000000000000000  USER32.dll!__fnDWORD
+00007FF84BD03654 00007FF849A44C82 0000000000000000 0000000000000000  ntdll.dll!KiUserCallbackDispatch
+00007FF849051334 0000000000000000 0000000000000000 0000000000000000  win32u.dll!NtUserMessageCall
+00007FF849A44C82 0000000000080CE8 00000000015B5100 0000000000000000  USER32.dll!SendMessageWorker
+00007FF849A448D4 0000000000000000 0000000000000000 0000000000000000  USER32.dll!SendMessageInternal
+00007FF849A446BF 0000000003404440 000000006C36725A 0000000000080CE8  USER32.dll!SendMessageW
+000000006C3671AE 0000000000F0F0F0 000000000081ED60 0000000000000000  wxmsw313u_gcc_cb.dll!wxGetWindowFromHWND
+000000006C5A4CB9 0000000003404440 0000000003404440 000000000081F0A0  wxmsw313u_gcc_cb.dll!wxWindowBase::FindFocus
+000000006C357D15 0000001C00000000 0000000D00000011 000000000000000D  wxmsw313u_gcc_cb.dll!wxTopLevelWindowMSW::DoSaveLastFocus
+000000006C35A485 00000000036D8940 000000000081F0A0 000000000081EF60  wxmsw313u_gcc_cb.dll!wxTopLevelWindowMSW::OnActivate
+000000006C103194 000021FC000021FC 0000000000000000 00007FF849A41920  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::CallEventHandler
+000000006C260372 000000000000002F 0000000070CC761C 000000000081F3B8  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventIfMatchesId
+000000006C260537 0000000003404440 0000000000020904 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventHashTable::HandleEvent
+000000006C260B8D 0000000000000001 0000000000000000 0000000000000001  wxmsw313u_gcc_cb.dll!wxEvtHandler::TryHereOnly
+000000006C260613 0000000000000018 00007FF84BBC78B4 0000000001040000  wxmsw313u_gcc_cb.dll!wxEvtHandler::DoTryChain
+000000006C260CE1 0000000003404440 0000000000000086 0000000000000001  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEvent
+000000006C26296B 000000000081F2B0 00007FF84BBC7776 0000000000000002  wxmsw313u_gcc_cb.dll!wxEvtHandler::SafelyProcessEvent
+000000006C3637B2 0000002F00000002 0000007600000076 000000000081F450  wxmsw313u_gcc_cb.dll!wxWindow::HandleActivate
+000000006C36FA20 000000006CDD3464 00000000099A4E30 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWHandleMessage
+000000006C36042C 000000000081F480 000000007134B32E 000000000081F460  wxmsw313u_gcc_cb.dll!wxWindow::MSWWindowProc
+000000006C3582CC 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxTopLevelWindowMSW::MSWWindowProc
+000000006C3CF720 0000000000000000 0000000000000006 0000000080009011  wxmsw313u_gcc_cb.dll!wxFrame::MSWWindowProc
+00007FF849A45801 0000000000000388 000000006C3681C0 0000000000020904  USER32.dll!UserCallWinProcCheckWow
+00007FF849A4509C 0000000000000000 0000000000000000 0000000000000000  USER32.dll!DispatchClientMessage
+00007FF849A762C3 0000000000000008 0000000000000000 0000000000000000  USER32.dll!__fnDWORD
+00007FF84BD03654 00007FF849A38EEF 000000006CF7C8A0 000000000081FA30  ntdll.dll!KiUserCallbackDispatch
+00007FF8490512B4 000000006CF7C8A0 000000000081FA30 0000000000000008  win32u.dll!NtUserPeekMessage
+00007FF849A38EEF 0000000000000000 0000000000000000 0000000000000000  USER32.dll!_PeekMessage
+00007FF849A38E78 0000000000000001 000000000081FA10 0000000009EC7760  USER32.dll!PeekMessageW
+000000006C219D4C 0000000009DFDD30 0000000000000000 000000000081FA30  wxmsw313u_gcc_cb.dll!wxMSWEventLoopBase::GetNextMessageTimeout
+000000006C21A2FF 0000000002A47E08 000000006C10554F 0000000002A47C10  wxmsw313u_gcc_cb.dll!wxMSWEventLoopBase::GetNextMessage
+000000006C38F39A 0000000000000000 0000000000010000 0000000009EC7740  wxmsw313u_gcc_cb.dll!wxGUIEventLoop::Dispatch
+000000006C1375A3 0000000000000040 00007FF849CDD6C0 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventLoopManual::ProcessEvents
+000000006C137671 0000000002A47C10 0000000009EC7740 0000000000000008  wxmsw313u_gcc_cb.dll!wxEventLoopManual::DoRun
+000000006C137309 0000000009DCA260 000000020000001C 000000000E4AA070  wxmsw313u_gcc_cb.dll!wxEventLoopBase::Run
+000000006C107F1A 0000000002A47CA0 0000000002A2D068 0000000000000042  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::MainLoop
+0000000000405422 0000000002A47C10 000000006C26D6BB 0000000000908122  codeblocks.exe!0x5422
+000000006C17FBD5 0000000000000008 0000000000000021 00000000029FFB90  wxmsw313u_gcc_cb.dll!wxEntryReal
+0000000000402291 0000000000400000 0000000000000000 0000000000909013  codeblocks.exe!0x2291
+00000000004013C7 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x13c7
+00000000004014CB 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x14cb
+00007FF84B88DBE7 0000000000000000 0000000000000000 000004F0FFFFFB30  KERNEL32.DLL!BaseThreadInitThunk
+00007FF84BC25A4C 0000000000000000 0000000000000000 0000000000000000  ntdll.dll!RtlUserThreadStart
+
+codeblocks.exe	20.3.0.0
+ntdll.dll   	10.0.26100.2033
+KERNEL32.DLL	10.0.26100.1882
+KERNELBASE.dll	10.0.26100.1882
+msvcrt.dll  	7.0.26100.1882
+SHELL32.dll 	10.0.26100.1882
+msvcp_win.dll	10.0.26100.1882
+ucrtbase.dll	10.0.26100.1882
+COMCTL32.dll	6.10.26100.1882
+USER32.dll  	10.0.26100.1882
+GDI32.dll   	10.0.26100.2033
+win32u.dll  	10.0.26100.2033
+gdi32full.dll	10.0.26100.2033
+libgcc_s_seh-1.dll
+SHFOLDER.dll	10.0.26100.1
+libstdc++-6.dll
+codeblocks.dll
+wxmsw313u_gcc_cb.dll	3.1.3.0
+exchndl.dll 	0.9.1.0
+ADVAPI32.dll	10.0.26100.2033
+libwinpthread-1.dll	1.0.0.0
+sechost.dll 	10.0.26100.1882
+RPCRT4.dll  	10.0.26100.1150
+PSAPI.DLL   	10.0.26100.1
+VERSION.dll 	10.0.26100.1150
+mgwhelp.dll 	0.9.1.0
+comdlg32.dll	10.0.26100.1882
+combase.dll 	10.0.26100.1882
+shcore.dll  	10.0.26100.1882
+SHLWAPI.dll 	10.0.26100.1882
+ole32.dll   	10.0.26100.1882
+OLEAUT32.dll	10.0.26100.1882
+UxTheme.dll 	10.0.26100.1882
+WINMM.dll   	10.0.26100.1882
+dbghelp.dll 	10.0.17134.12
+OLEACC.dll  	7.2.26100.1882
+WSOCK32.dll 	10.0.26100.1
+WS2_32.dll  	10.0.26100.1882
+WINSPOOL.DRV	10.0.26100.1882
+cfgmgr32.dll	10.0.26100.1882
+dbgcore.DLL 	10.0.17134.12
+IMM32.DLL   	10.0.26100.1150
+CRYPTSP.dll 	10.0.26100.1
+rsaenh.dll  	10.0.26100.1301
+CRYPTBASE.dll	10.0.26100.1
+bcryptPrimitives.dll	10.0.26100.2033
+kernel.appcore.dll	10.0.26100.1591
+AudioDevProps2.dll	2.6.27.0
+windows.storage.dll	10.0.26100.2033
+MSCTF.dll   	10.0.26100.2033
+SspiCli.dll 	10.0.26100.1882
+textinputframework.dll	10.0.26100.1882
+CoreMessaging.dll	10.0.26100.1882
+CoreUIComponents.dll	10.0.26100.1882
+wintypes.dll	10.0.26100.1882
+clbcatq.dll 	2001.12.10941.16384
+dataexchange.dll	10.0.26100.1882
+twinapi.appcore.dll	10.0.26100.1882
+WindowsCodecs.dll	10.0.26100.2033
+profapi.dll 	10.0.26100.1882
+msftedit.DLL	10.0.26100.1882
+TextShaping.dll	10.0.26100.2033
+Windows.Globalization.dll	10.0.26100.1882
+globinputhost.dll	10.0.26100.1882
+Bcp47Langs.dll	10.0.26100.1882
+abbreviations.dll
+astyle.dll
+autosave.dll
+AutoVersioning.dll
+BrowseTracker.dll
+byogames.dll
+cb_koders.dll
+Cccc.dll
+classwizard.dll
+codecompletion.dll
+codesnippets.dll
+codestat.dll
+compiler.dll
+copystrings.dll
+CppCheck.dll
+Cscope.dll
+debugger.dll
+defaultmimehandler.dll
+devpakupdater.dll
+DoxyBlocks.dll	1.7.663.8397
+DragScroll.dll
+EditorConfig.dll
+EditorTweaks.dll
+envvars.dll
+Exporter.dll
+FileManager.dll
+FortranProject.dll
+headerfixup.dll
+help_plugin.dll
+HHCTRL.OCX  	10.0.26100.1882
+HexEditor.dll
+IncrementalSearch.dll
+keybinder.dll
+lib_finder.dll
+wxflatnotebook.dll
+MouseSap.dll
+NassiShneiderman.dll
+OccurrencesHighlighting.dll
+openfileslist.dll
+Profiler.dll
+ProjectOptionsManipulator.dll
+projectsimporter.dll
+RegExTestbed.dll
+ReopenEditor.dll
+rndgen.dll
+scriptedwizard.dll
+SmartIndentCpp.dll
+SmartIndentFortran.dll
+SmartIndentHDL.dll
+SmartIndentLua.dll
+SmartIndentPascal.dll
+SmartIndentPython.dll
+SmartIndentXML.dll
+SpellChecker.dll
+SymTab.dll
+ThreadSearch.dll
+wxcustombutton.dll
+todo.dll
+ToolsPlus.dll
+wxsmith.dll
+wxsmithlib.dll
+wxSmithAui.dll
+wxSmithContribItems.dll
+wxchartctrl.dll
+wxdatetimepicker.dll
+wxkwic.dll
+wxled.dll
+wxmathplot.dll
+wxspeedbutton.dll
+wximagepanel.dll
+xpmanifest.dll
+apphelp.dll 	10.0.26100.1882
+msimg32.dll 	10.0.26100.1882
+dwmapi.dll  	10.0.26100.1882
+tiptsf.dll  	10.0.26100.1882
+UIAutomationCore.DLL	7.2.26100.1882
+edputil.dll 	10.0.26100.1150
+OneCoreCommonProxyStub.dll	10.0.26100.1882
+propsys.dll 	7.0.26100.1882
+Windows.FileExplorer.Common.dll	10.0.26100.1882
+vaultcli.dll	10.0.26100.1882
+ntshrui.dll 	10.0.26100.1882
+srvcli.dll  	10.0.26100.1150
+cscapi.dll  	10.0.26100.1
+Windows.StateRepositoryPS.dll	10.0.26100.1882
+windows.staterepositoryclient.dll	10.0.26100.1882
+StructuredQuery.dll	7.0.26100.1882
+thumbcache.dll	10.0.26100.1882
+policymanager.dll	10.0.26100.1882
+msvcp110_win.dll	10.0.26100.1150
+OneCoreUAPCommonProxyStub.dll	10.0.26100.1882
+Windows.System.Launcher.dll	10.0.26100.1882
+windows.staterepositorycore.dll	10.0.26100.1882
+urlmon.dll  	11.0.26100.1882
+iertutil.dll	11.0.26100.2033
+netutils.dll	10.0.26100.1882
+Windows.Storage.Search.dll	10.0.26100.1882
+cldapi.dll  	10.0.26100.1882
+FileSyncShell64.dll	24.186.915.4
+CRYPT32.dll 	10.0.26100.1882
+bcrypt.dll  	10.0.26100.1882
+WININET.dll 	11.0.26100.1882
+Secur32.dll 	10.0.26100.1
+WTSAPI32.dll	10.0.26100.1
+USERENV.dll 	10.0.26100.1150
+EhStorShell.dll	10.0.26100.1882
+SETUPAPI.dll	10.0.26100.1882
+IconCodecService.dll	10.0.26100.1
+MPR.dll     	10.0.26100.1882
+p9np.dll    	10.0.26100.1150
+drprov.dll  	10.0.26100.1
+ntlanman.dll	10.0.26100.1882
+davclnt.dll 	10.0.26100.1
+WINSTA.dll  	10.0.26100.1882
+wkscli.dll  	10.0.26100.1882
+dlnashext.dll	10.0.26100.1882
+PlayToDevice.dll	10.0.26100.1882
+DevDispItemProvider.dll	10.0.26100.1150
+MMDevApi.dll	10.0.26100.1882
+DEVOBJ.dll  	10.0.26100.1150
+AudioSes.dll	10.0.26100.1882
+ProductInfo.dll	1.10.1.0
+ASM.Plugin.AudioDevProps2.dll	1.0.1.0
+wpdshext.dll	10.0.26100.1882
+gdiplus.dll 	10.0.26100.1882
+PortableDeviceApi.dll	10.0.26100.1150
+WINTRUST.dll	10.0.26100.1882
+MSASN1.dll  	10.0.26100.1150
+EhStorAPI.dll	10.0.26100.1882
+Ninput.dll  	10.0.26100.1882
+DWrite.dll  	10.0.26100.2033
+wtdccm.dll
+Windows.UI.dll	10.0.26100.1882
+symsrv.dll  	10.0.17134.12
+ondemandconnroutehelper.dll	10.0.26100.1882
+WINHTTP.dll 	10.0.26100.1882
+IPHLPAPI.DLL	10.0.26100.2033
+mswsock.dll 	10.0.26100.1882
+NSI.dll     	10.0.26100.1
+WINNSI.DLL  	10.0.26100.1
+DNSAPI.dll  	10.0.26100.2033
+rasadhlp.dll	10.0.26100.1150
+fwpuclnt.dll	10.0.26100.1882
+schannel.DLL	10.0.26100.2033
+ncrypt.dll  	10.0.26100.1591
+NTASN1.dll  	10.0.26100.1882
+ncryptsslp.dll	10.0.26100.1882
+DPAPI.DLL   	10.0.26100.1
+
+Windows 10.0.26100
+DrMingw 0.9.1
+
+-------------------
+
+Error occurred on Monday, October 28, 2024 at 20:04:25.
+
+codeblocks.exe caused an Access Violation at location 000000006C36E5A5 in module wxmsw313u_gcc_cb.dll Reading from location 0000000000002658.
+
+AddrPC           Params
+000000006C36E5A5 000000000081EBB0 00007FFAA75A2BB1 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWShowWithEffect
+000000006C5A29A3 0000000000000000 0000000000000000 0000000900000008  wxmsw313u_gcc_cb.dll!wxWindowBase::GetFont
+000000006C361EE6 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::DoGetTextExtent
+000000006C360454 0000000000000000 000000000000001C 0000002100000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWWindowProc
+00007FFAACFA5801 00000000C0000388 000000006C3681C0 0000000001720C9A  USER32.dll!UserCallWinProcCheckWow
+00007FFAACFA509C 0000000000000000 0000000000000000 0000000000000000  USER32.dll!DispatchClientMessage
+00007FFAACFD62C3 0000000000000000 0000000000000000 0000000000000000  USER32.dll!__fnDWORD
+00007FFAAD4E3654 00007FFAACFA4C82 0000000000000000 0000000000000000  ntdll.dll!KiUserCallbackDispatch
+00007FFAAA781334 0000000000000000 0000000000000000 0000000000000000  win32u.dll!NtUserMessageCall
+00007FFAACFA4C82 0000000000630D64 00000000015BC000 0000000000000000  USER32.dll!SendMessageWorker
+00007FFAACFA48D4 0000000000000000 0000000000000000 0000000000000000  USER32.dll!SendMessageInternal
+00007FFAACFA46BF 00000000034EAB90 000000006C36725A 0000000000630D64  USER32.dll!SendMessageW
+000000006C3671AE 0000000000F0F0F0 000000000081ED60 0000000000000000  wxmsw313u_gcc_cb.dll!wxGetWindowFromHWND
+000000006C5A4CB9 00000000034EAB90 00000000034EAB90 000000000081F0A0  wxmsw313u_gcc_cb.dll!wxWindowBase::FindFocus
+000000006C357D15 0000001C00000000 0000000D00000011 000000000000000D  wxmsw313u_gcc_cb.dll!wxTopLevelWindowMSW::DoSaveLastFocus
+000000006C35A485 0000000007FC1660 000000000081F0A0 000000000081EF60  wxmsw313u_gcc_cb.dll!wxTopLevelWindowMSW::OnActivate
+000000006C103194 000012A4000012A4 0000000000000000 00007FFAACFA1920  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::CallEventHandler
+000000006C260372 000000000000002F 0000000070CC761C 000000000081F3B8  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventIfMatchesId
+000000006C260537 00000000034EAB90 00000000000309EA 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventHashTable::HandleEvent
+000000006C260B8D 0000000000000001 0000000000000000 0000000000000001  wxmsw313u_gcc_cb.dll!wxEvtHandler::TryHereOnly
+000000006C260613 000000000167A9C0 0000000002A37C10 0000000000000001  wxmsw313u_gcc_cb.dll!wxEvtHandler::DoTryChain
+000000006C260CE1 00000000034EAB90 0000000000000086 0000000000000001  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEvent
+000000006C26296B 0000000003B00726 0000000000000001 0000000001720C9A  wxmsw313u_gcc_cb.dll!wxEvtHandler::SafelyProcessEvent
+000000006C3637B2 0000000001720C9A 0000000100000095 0000000000000084  wxmsw313u_gcc_cb.dll!wxWindow::HandleActivate
+000000006C36FA20 0000000000000000 0000000009984470 000000006D003CD0  wxmsw313u_gcc_cb.dll!wxWindow::MSWHandleMessage
+000000006C36042C 0000000000000000 000000000081F400 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWWindowProc
+000000006C3582CC 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxTopLevelWindowMSW::MSWWindowProc
+000000006C3CF720 0000000000000000 0000000000000006 0000000080009011  wxmsw313u_gcc_cb.dll!wxFrame::MSWWindowProc
+00007FFAACFA5801 0000000000000388 000000006C3681C0 00000000000309EA  USER32.dll!UserCallWinProcCheckWow
+00007FFAACFA509C 0000000000000000 0000000000000000 0000000000000000  USER32.dll!DispatchClientMessage
+00007FFAACFD62C3 000000000081FA30 00000000031BAEA0 0000000000000001  USER32.dll!__fnDWORD
+00007FFAAD4E3654 00007FFAACF98EEF 000000000081F7D0 000000006C103194  ntdll.dll!KiUserCallbackDispatch
+00007FFAAA7812B4 000000000081F7D0 000000006C103194 0000000000000000  win32u.dll!NtUserPeekMessage
+00007FFAACF98EEF 0000000000000000 0000000000000000 0000000000000000  USER32.dll!_PeekMessage
+00007FFAACF98E78 0000000000000001 000000000081FA10 000000000E0399C0  USER32.dll!PeekMessageW
+000000006C219D4C 0000000009D2CEF0 0000000000000000 000000000081FA30  wxmsw313u_gcc_cb.dll!wxMSWEventLoopBase::GetNextMessageTimeout
+000000006C21A2FF 0000000002A37E08 000000006C10554F 0000000002A37C10  wxmsw313u_gcc_cb.dll!wxMSWEventLoopBase::GetNextMessage
+000000006C38F39A 0000000000000000 0000000000010000 000000000E0399A0  wxmsw313u_gcc_cb.dll!wxGUIEventLoop::Dispatch
+000000006C1375A3 0000000000000040 00007FFAAB46D6C0 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventLoopManual::ProcessEvents
+000000006C137671 0000000002A37C10 000000000E0399A0 0000000000000008  wxmsw313u_gcc_cb.dll!wxEventLoopManual::DoRun
+000000006C137309 0000000009D06860 000000020000001C 000000000E1CA5B0  wxmsw313u_gcc_cb.dll!wxEventLoopBase::Run
+000000006C107F1A 0000000002A37CA0 0000000002A1C928 0000000000000042  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::MainLoop
+0000000000405422 0000000002A37C10 000000006C26D6BB 00000000008A8112  codeblocks.exe!0x5422
+000000006C17FBD5 0000000000000008 0000000000000021 00000000029EFDD0  wxmsw313u_gcc_cb.dll!wxEntryReal
+0000000000402291 0000000000400000 0000000000000000 00000000008A9003  codeblocks.exe!0x2291
+00000000004013C7 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x13c7
+00000000004014CB 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x14cb
+00007FFAAC23DBE7 0000000000000000 0000000000000000 000004F0FFFFFB30  KERNEL32.DLL!BaseThreadInitThunk
+00007FFAAD405A4C 0000000000000000 0000000000000000 0000000000000000  ntdll.dll!RtlUserThreadStart
+
+codeblocks.exe	20.3.0.0
+ntdll.dll   	10.0.26100.2033
+KERNEL32.DLL	10.0.26100.1882
+KERNELBASE.dll	10.0.26100.1882
+msvcrt.dll  	7.0.26100.1882
+SHELL32.dll 	10.0.26100.1882
+msvcp_win.dll	10.0.26100.1882
+ucrtbase.dll	10.0.26100.1882
+COMCTL32.dll	6.10.26100.1882
+libgcc_s_seh-1.dll
+USER32.dll  	10.0.26100.1882
+win32u.dll  	10.0.26100.2033
+GDI32.dll   	10.0.26100.2033
+gdi32full.dll	10.0.26100.2033
+libwinpthread-1.dll	1.0.0.0
+libstdc++-6.dll
+codeblocks.dll
+wxmsw313u_gcc_cb.dll	3.1.3.0
+SHFOLDER.dll	10.0.26100.1
+ADVAPI32.dll	10.0.26100.2033
+exchndl.dll 	0.9.1.0
+sechost.dll 	10.0.26100.1882
+PSAPI.DLL   	10.0.26100.1
+RPCRT4.dll  	10.0.26100.1150
+comdlg32.dll	10.0.26100.1882
+combase.dll 	10.0.26100.1882
+shcore.dll  	10.0.26100.1882
+SHLWAPI.dll 	10.0.26100.1882
+ole32.dll   	10.0.26100.1882
+OLEAUT32.dll	10.0.26100.1882
+mgwhelp.dll 	0.9.1.0
+VERSION.dll 	10.0.26100.1150
+OLEACC.dll  	7.2.26100.1882
+UxTheme.dll 	10.0.26100.1882
+WINMM.dll   	10.0.26100.1882
+dbghelp.dll 	10.0.17134.12
+WSOCK32.dll 	10.0.26100.1
+WS2_32.dll  	10.0.26100.1882
+dbgcore.DLL 	10.0.17134.12
+WINSPOOL.DRV	10.0.26100.1882
+cfgmgr32.dll	10.0.26100.1882
+IMM32.DLL   	10.0.26100.1150
+CRYPTSP.dll 	10.0.26100.1
+rsaenh.dll  	10.0.26100.1301
+CRYPTBASE.dll	10.0.26100.1
+bcryptPrimitives.dll	10.0.26100.2033
+kernel.appcore.dll	10.0.26100.1591
+AudioDevProps2.dll	2.6.27.0
+windows.storage.dll	10.0.26100.2033
+MSCTF.dll   	10.0.26100.2033
+SspiCli.dll 	10.0.26100.1882
+textinputframework.dll	10.0.26100.1882
+CoreMessaging.dll	10.0.26100.1882
+CoreUIComponents.dll	10.0.26100.1882
+wintypes.dll	10.0.26100.1882
+clbcatq.dll 	2001.12.10941.16384
+dataexchange.dll	10.0.26100.1882
+twinapi.appcore.dll	10.0.26100.1882
+WindowsCodecs.dll	10.0.26100.2033
+profapi.dll 	10.0.26100.1882
+msftedit.DLL	10.0.26100.1882
+TextShaping.dll	10.0.26100.2033
+Windows.Globalization.dll	10.0.26100.1882
+globinputhost.dll	10.0.26100.1882
+Bcp47Langs.dll	10.0.26100.1882
+abbreviations.dll
+astyle.dll
+autosave.dll
+AutoVersioning.dll
+BrowseTracker.dll
+byogames.dll
+cb_koders.dll
+Cccc.dll
+classwizard.dll
+codecompletion.dll
+codesnippets.dll
+codestat.dll
+compiler.dll
+copystrings.dll
+CppCheck.dll
+Cscope.dll
+debugger.dll
+defaultmimehandler.dll
+devpakupdater.dll
+DoxyBlocks.dll	1.7.663.8397
+DragScroll.dll
+EditorConfig.dll
+EditorTweaks.dll
+envvars.dll
+Exporter.dll
+FileManager.dll
+FortranProject.dll
+headerfixup.dll
+help_plugin.dll
+HHCTRL.OCX  	10.0.26100.1882
+HexEditor.dll
+IncrementalSearch.dll
+keybinder.dll
+lib_finder.dll
+wxflatnotebook.dll
+MouseSap.dll
+NassiShneiderman.dll
+OccurrencesHighlighting.dll
+openfileslist.dll
+Profiler.dll
+ProjectOptionsManipulator.dll
+projectsimporter.dll
+RegExTestbed.dll
+ReopenEditor.dll
+rndgen.dll
+scriptedwizard.dll
+SmartIndentCpp.dll
+SmartIndentFortran.dll
+SmartIndentHDL.dll
+SmartIndentLua.dll
+SmartIndentPascal.dll
+SmartIndentPython.dll
+SmartIndentXML.dll
+SpellChecker.dll
+SymTab.dll
+ThreadSearch.dll
+wxcustombutton.dll
+todo.dll
+ToolsPlus.dll
+wxsmith.dll
+wxsmithlib.dll
+wxSmithAui.dll
+wxSmithContribItems.dll
+wxchartctrl.dll
+wxdatetimepicker.dll
+wxkwic.dll
+wxled.dll
+wxmathplot.dll
+wxspeedbutton.dll
+wximagepanel.dll
+xpmanifest.dll
+apphelp.dll 	10.0.26100.1882
+msimg32.dll 	10.0.26100.1882
+dwmapi.dll  	10.0.26100.1882
+tiptsf.dll  	10.0.26100.1882
+UIAutomationCore.DLL	7.2.26100.1882
+edputil.dll 	10.0.26100.1150
+OneCoreCommonProxyStub.dll	10.0.26100.1882
+propsys.dll 	7.0.26100.1882
+Windows.FileExplorer.Common.dll	10.0.26100.1882
+vaultcli.dll	10.0.26100.1882
+ntshrui.dll 	10.0.26100.1882
+srvcli.dll  	10.0.26100.1150
+cscapi.dll  	10.0.26100.1
+Windows.StateRepositoryPS.dll	10.0.26100.1882
+windows.staterepositoryclient.dll	10.0.26100.1882
+StructuredQuery.dll	7.0.26100.1882
+thumbcache.dll	10.0.26100.1882
+OneCoreUAPCommonProxyStub.dll	10.0.26100.1882
+Windows.System.Launcher.dll	10.0.26100.1882
+windows.staterepositorycore.dll	10.0.26100.1882
+urlmon.dll  	11.0.26100.1882
+iertutil.dll	11.0.26100.2033
+netutils.dll	10.0.26100.1882
+Windows.Storage.Search.dll	10.0.26100.1882
+cldapi.dll  	10.0.26100.1882
+policymanager.dll	10.0.26100.1882
+msvcp110_win.dll	10.0.26100.1150
+FileSyncShell64.dll	24.192.923.6
+CRYPT32.dll 	10.0.26100.1882
+bcrypt.dll  	10.0.26100.1882
+WININET.dll 	11.0.26100.1882
+Secur32.dll 	10.0.26100.1
+WTSAPI32.dll	10.0.26100.1
+USERENV.dll 	10.0.26100.1150
+EhStorShell.dll	10.0.26100.1882
+SETUPAPI.dll	10.0.26100.1882
+Windows.UI.dll	10.0.26100.1882
+gdiplus.dll 	10.0.26100.1882
+DWrite.dll  	10.0.26100.2033
+DUser.dll   	10.0.26100.1882
+atlthunk.dll	10.0.26100.1
+IconCodecService.dll	10.0.26100.1
+MPR.dll     	10.0.26100.1882
+p9np.dll    	10.0.26100.1150
+drprov.dll  	10.0.26100.1
+ntlanman.dll	10.0.26100.1882
+davclnt.dll 	10.0.26100.1
+WINSTA.dll  	10.0.26100.1882
+wkscli.dll  	10.0.26100.1882
+dlnashext.dll	10.0.26100.1882
+PlayToDevice.dll	10.0.26100.1882
+DevDispItemProvider.dll	10.0.26100.1150
+MMDevApi.dll	10.0.26100.1882
+DEVOBJ.dll  	10.0.26100.1150
+AudioSes.dll	10.0.26100.1882
+ProductInfo.dll	1.10.1.0
+ASM.Plugin.AudioDevProps2.dll	1.0.1.0
+wpdshext.dll	10.0.26100.1882
+PortableDeviceApi.dll	10.0.26100.1150
+WINTRUST.dll	10.0.26100.1882
+MSASN1.dll  	10.0.26100.1150
+EhStorAPI.dll	10.0.26100.1882
+XmlLite.dll 	10.0.26100.1150
+LINKINFO.dll	10.0.26100.1
+MrmCoreR.dll	10.0.26100.1882
+wtdccm.dll
+symsrv.dll  	10.0.17134.12
+ondemandconnroutehelper.dll	10.0.26100.1882
+WINHTTP.dll 	10.0.26100.1882
+mswsock.dll 	10.0.26100.1882
+IPHLPAPI.DLL	10.0.26100.2033
+NSI.dll     	10.0.26100.1
+WINNSI.DLL  	10.0.26100.1
+DNSAPI.dll  	10.0.26100.2033
+rasadhlp.dll	10.0.26100.1150
+fwpuclnt.dll	10.0.26100.1882
+
+Windows 10.0.26100
+DrMingw 0.9.1
+
+-------------------
+
+Error occurred on Monday, November 11, 2024 at 16:01:25.
+
+codeblocks.exe caused a Breakpoint at location 000000006C20A54B in module wxmsw313u_gcc_cb.dll.
+
+AddrPC           Params
+000000006C20A54B 000000000081FCD0 0000000002A9D280 0000000000880000  wxmsw313u_gcc_cb.dll!wxDDECleanUp
+000000006C199C89 0000000002A85D50 0000000000000008 0000000000000000  wxmsw313u_gcc_cb.dll!wxModule::DoCleanUpModules
+000000006C17E583 000000006D153140 00000000FFFFFFFF 0000000000000008  wxmsw313u_gcc_cb.dll!wxEntryCleanup
+000000006C17E5FA 0000000002A85D50 000000006C26D6BB 00000000008E8072  wxmsw313u_gcc_cb.dll!wxUninitialize
+000000006C17FBE8 0000000000000008 0000000000000021 0000000002A3FFC0  wxmsw313u_gcc_cb.dll!wxEntryReal
+0000000000402291 0000000000400000 0000000000000000 00000000008E8F63  codeblocks.exe!0x2291
+00000000004013C7 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x13c7
+00000000004014CB 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x14cb
+00007FFC59B6DBE7 0000000000000000 0000000000000000 000004F0FFFFFB30  KERNEL32.DLL!BaseThreadInitThunk
+00007FFC5B945A4C 0000000000000000 0000000000000000 0000000000000000  ntdll.dll!RtlUserThreadStart
+
+codeblocks.exe	20.3.0.0
+ntdll.dll   	10.0.26100.2033
+KERNEL32.DLL	10.0.26100.1882
+KERNELBASE.dll	10.0.26100.1882
+msvcrt.dll  	7.0.26100.1882
+SHELL32.dll 	10.0.26100.1882
+libgcc_s_seh-1.dll
+msvcp_win.dll	10.0.26100.1882
+COMCTL32.dll	6.10.26100.1882
+ucrtbase.dll	10.0.26100.1882
+GDI32.dll   	10.0.26100.2033
+USER32.dll  	10.0.26100.1882
+libwinpthread-1.dll	1.0.0.0
+win32u.dll  	10.0.26100.2033
+gdi32full.dll	10.0.26100.2033
+libstdc++-6.dll
+SHFOLDER.dll	10.0.26100.1
+codeblocks.dll
+exchndl.dll 	0.9.1.0
+wxmsw313u_gcc_cb.dll	3.1.3.0
+ADVAPI32.dll	10.0.26100.2033
+comdlg32.dll	10.0.26100.1882
+mgwhelp.dll 	0.9.1.0
+sechost.dll 	10.0.26100.1882
+PSAPI.DLL   	10.0.26100.1
+combase.dll 	10.0.26100.1882
+RPCRT4.dll  	10.0.26100.1150
+shcore.dll  	10.0.26100.1882
+dbghelp.dll 	10.0.17134.12
+SHLWAPI.dll 	10.0.26100.1882
+ole32.dll   	10.0.26100.1882
+OLEAUT32.dll	10.0.26100.1882
+VERSION.dll 	10.0.26100.1150
+OLEACC.dll  	7.2.26100.1882
+WINMM.dll   	10.0.26100.1882
+UxTheme.dll 	10.0.26100.1882
+WINSPOOL.DRV	10.0.26100.1882
+WSOCK32.dll 	10.0.26100.1
+WS2_32.dll  	10.0.26100.1882
+dbgcore.DLL 	10.0.17134.12
+cfgmgr32.dll	10.0.26100.1882
+IMM32.DLL   	10.0.26100.1150
+CRYPTSP.dll 	10.0.26100.1
+rsaenh.dll  	10.0.26100.1301
+CRYPTBASE.dll	10.0.26100.1
+bcryptPrimitives.dll	10.0.26100.2033
+kernel.appcore.dll	10.0.26100.1591
+AudioDevProps2.dll	2.6.28.0
+windows.storage.dll	10.0.26100.2033
+MSCTF.dll   	10.0.26100.2033
+SspiCli.dll 	10.0.26100.1882
+DUser.dll   	10.0.26100.1882
+atlthunk.dll	10.0.26100.1
+TextShaping.dll	10.0.26100.2033
+textinputframework.dll	10.0.26100.1882
+CoreMessaging.dll	10.0.26100.1882
+CoreUIComponents.dll	10.0.26100.1882
+wintypes.dll	10.0.26100.1882
+symsrv.dll  	10.0.17134.12
+CRYPT32.dll 	10.0.26100.1882
+WININET.dll 	11.0.26100.1882
+iertutil.dll	11.0.26100.2033
+srvcli.dll  	10.0.26100.1150
+netutils.dll	10.0.26100.1882
+profapi.dll 	10.0.26100.1882
+ondemandconnroutehelper.dll	10.0.26100.1882
+WINHTTP.dll 	10.0.26100.1882
+mswsock.dll 	10.0.26100.1882
+IPHLPAPI.DLL	10.0.26100.2033
+WINNSI.DLL  	10.0.26100.1
+NSI.dll     	10.0.26100.1
+urlmon.dll  	11.0.26100.1882
+DNSAPI.dll  	10.0.26100.2033
+rasadhlp.dll	10.0.26100.1150
+fwpuclnt.dll	10.0.26100.1882
+
+Windows 10.0.26100
+DrMingw 0.9.1
+
+-------------------
+
+Error occurred on Monday, February 24, 2025 at 20:00:00.
+
+codeblocks.exe caused a Breakpoint at location 0000000000510C8F in module codeblocks.exe.
+
+AddrPC           Params
+0000000000510C8F 000000000081A808 000000000081AF10 000000006CDAA000  codeblocks.exe!0x110c8f
+0000000000510CC9 000000000081A808 000000000081A848 000000000951C3D0  codeblocks.exe!0x110cc9
+0000000000510BC0 000000000081A808 000000000081A848 0000000000000000  codeblocks.exe!0x110bc0
+00000000004A539B 00000000031A9ED0 000000000081AA90 0000000000000070  codeblocks.exe!0xa539b
+0000000000409CD3 0000000002A65CD0 000000000081AF10 0000000000000000  codeblocks.exe!0x9cd3
+000000006C103194 0000001100000090 0000000300000004 0000000000000000  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::CallEventHandler
+000000006C260372 0000000000000006 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventIfMatchesId
+000000006C260537 0000000002A65CD0 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventHashTable::HandleEvent
+000000006C260B8D 0000000000040D64 00007FFFFD8D608A FFFFFFFFFFFFFFFE  wxmsw313u_gcc_cb.dll!wxEvtHandler::TryHereOnly
+000000006C260BFD 5601024300000264 00000000C0000800 0000000000040D64  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventLocally
+000000006C260CE1 0000000000000000 0000000000000000 00000000015FD8D0  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEvent
+000000006C47F291 0000000000000001 000000000081B1C0 000000000000002A  wxmsw313u_gcc_cb.dll!wxAppBase::SetActive
+000000006C36F1D8 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWHandleMessage
+000000006C36042C 0000000000000000 000000000000001C 0000000080009011  wxmsw313u_gcc_cb.dll!wxWindow::MSWWindowProc
+00007FFFFD8D52A1 0000000040000388 000000006C3681C0 0000000000020AC4  USER32.dll!UserCallWinProcCheckWow
+00007FFFFD8D4B3C 0000000000000000 0000000000000000 0000000000000001  USER32.dll!DispatchClientMessage
+00007FFFFD9065A3 000000000081B4B8 0000001100000050 00007FFFFD112D74  USER32.dll!__fnDWORD
+00007FFFFF8837F4 00007FFFC6753AEB 0000000000000000 0000000000000000  ntdll.dll!KiUserCallbackDispatch
+00007FFFFD112D74 0000000000000000 0000000000000000 0000000000000000  win32u.dll!NtUserRealInternalGetMessage
+00007FFFC6753AEB 0000000000000000 000000000081B658 0000000000000000  DUser.dll!CoreSC::xwProcessNL
+00007FFFC67539A4 0000000000000000 0000000000000001 0000000000000000  DUser.dll!MphProcessMessage
+00007FFFFD90B94D 0000000000000000 0000000000000000 0000000000000001  USER32.dll!__ClientGetMessageMPH
+00007FFFFF8837F4 00007FFFFD8C872F 0000000000000000 0000000000000001  ntdll.dll!KiUserCallbackDispatch
+00007FFFFD1112B4 0000000000000000 0000000000000001 0000000000000010  win32u.dll!NtUserPeekMessage
+00007FFFFD8C872F 0000000000000001 00000000001A01CE 0000000001602E80  USER32.dll!_PeekMessage
+00007FFFFD8C8134 0000000000000001 0000000000000001 0000000000000001  USER32.dll!DialogBox2
+00007FFFFD8DDBD7 000000000ECA5500 00000000001A01CE 00007FFFFD7FAA90  USER32.dll!InternalDialogBox
+00007FFFFD9253EC 0000000000000000 000000000081BA70 00000000009F4890  USER32.dll!DialogBoxIndirectParamAorW
+00007FFFFD925368 0000000000000000 0000000000000000 0000000000000004  USER32.dll!DialogBoxIndirectParamW
+00007FFFFD8298B2 0000000000000000 0000000000810170 000000000ECC0160  comdlg32.dll!<lambda_f0216a97dab96ed8f91246a75ff2e0fa>::operator()
+00007FFFFD7F8289 000000000081C0D0 0000000000000000 000000000081BEC0  comdlg32.dll!CFileOpenSave::Show
+000000006C3BE1C9 0000000000000000 0000000000000000 000000000081C4B0  wxmsw313u_gcc_cb.dll!wxDirDialog::ShowIFileDialog
+000000006C3C135B 000000000081C0D0 0000000000000001 00000000015FF000  wxmsw313u_gcc_cb.dll!wxDirDialog::ShowModal
+00000000709F3815 000000000081C6D0 0000000000000000 0000000010B74F98  codeblocks.dll!ChooseDirectory
+000000006EB5AE9D 0000000010AEA200 000000000081CAE0 0000000000000000  scriptedwizard.dll!0x1ae9d
+000000006C103194 0000000080009011 0000000064041B6E 0000000000000000  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::CallEventHandler
+000000006C260372 0000000000000000 0000000000000001 0000000100000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventIfMatchesId
+000000006C260537 0000000010AEA200 0000000000000000 0000000000000070  wxmsw313u_gcc_cb.dll!wxEventHashTable::HandleEvent
+000000006C260B8D 0000000000000000 0000000080009011 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::TryHereOnly
+000000006C260BFD 0000000009620AE0 000000000081CAE0 0000000009620AE0  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventLocally
+000000006C260CE1 0000000009621850 000000000081CAE0 0000000009621850  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEvent
+000000006C5A7D88 000000000081CB08 0000000002A65CD0 0000000000000001  wxmsw313u_gcc_cb.dll!wxWindowBase::TryAfter
+000000006C5A7D88 0000000000000000 0000000000000000 0000000002A65CD0  wxmsw313u_gcc_cb.dll!wxWindowBase::TryAfter
+000000006C26296B 0000000000000000 0000000000000000 0000000000010D80  wxmsw313u_gcc_cb.dll!wxEvtHandler::SafelyProcessEvent
+000000006C3A9EEC 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxButton::SendClickEvent
+000000006C365637 00000000C0000388 000000006C3681C0 0000000000010D84  wxmsw313u_gcc_cb.dll!wxWindow::HandleCommand
+000000006C370158 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWHandleMessage
+000000006C36042C 0000000000000000 0000000000000111 0000000080009011  wxmsw313u_gcc_cb.dll!wxWindow::MSWWindowProc
+00007FFFFD8D52A1 00000000015FE950 000000006C3681C0 0000000000020D70  USER32.dll!UserCallWinProcCheckWow
+00007FFFFD8D45C3 0000000000020D70 00007FFFFF883700 0000000000000738  USER32.dll!SendMessageWorker
+00007FFFFD8D4374 0000000000000000 0000000000000738 0000000000010D80  USER32.dll!SendMessageInternal
+00007FFFFD8D415F 0000000000000001 0000000000000001 0000000006ED84C0  USER32.dll!SendMessageW
+00007FFFD9B64F35 0000000000000202 000000000081D2B9 0000000006ED84C0  COMCTL32.dll!Button_ReleaseCapture
+00007FFFD9B46849 0000000000000000 0000000000000202 0000000000000202  COMCTL32.dll!Button_WndProc
+00007FFFFD8D52A1 00000000015FF190 00007FFFD9B45B20 0000000000010D80  USER32.dll!UserCallWinProcCheckWow
+00007FFFFD8D4D7C 0000000009621850 0000000000090009 0000000000000000  USER32.dll!CallWindowProcW
+000000006C36629F 0000000000030000 000000006C2182B0 0000000002A65CD0  wxmsw313u_gcc_cb.dll!wxWindow::MSWDefWindowProc
+000000006C360454 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxWindow::MSWWindowProc
+000000006C39D51F 0000000000000000 0000000000000202 0000000000000000  wxmsw313u_gcc_cb.dll!wxAnyButton::MSWWindowProc
+00007FFFFD8D52A1 000000000081DAD0 000000006C3681C0 0000000000010D80  USER32.dll!UserCallWinProcCheckWow
+00007FFFFD8D2E0D 000000000081DAD0 0000000000000000 00000000015FCEF0  USER32.dll!DispatchMessageWorker
+00007FFFFD8C8EFB 0000000009620AE0 000000006CD2F250 000000000081DAD0  USER32.dll!IsDialogMessageW
+000000006C362D3B 0000000009620AE0 000000000081DAD0 00007FFFFD8D5B60  wxmsw313u_gcc_cb.dll!wxWindow::MSWSafeIsDialogMessage
+000000006C362F89 0000000010AEA200 00007FFF00000001 000000000E65EA60  wxmsw313u_gcc_cb.dll!wxWindow::MSWProcessMessage
+000000006C38F76A 0000000010B6FA10 0000000000000000 00000000015A3EF0  wxmsw313u_gcc_cb.dll!wxGUIEventLoop::PreProcessMessage
+000000006C38F631 0000000002A65EC8 000000006C10554F 0000000002A65CD0  wxmsw313u_gcc_cb.dll!wxGUIEventLoop::ProcessMessage
+000000006C38F441 0000000000010D80 0000000000000202 0000000000000001  wxmsw313u_gcc_cb.dll!wxGUIEventLoop::Dispatch
+000000006C1375A3 000000000081F5A0 00007FFFFD8D415F 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventLoopManual::ProcessEvents
+000000006C137671 0000000002A65CD0 0000000010B78150 000000000E701A20  wxmsw313u_gcc_cb.dll!wxEventLoopManual::DoRun
+000000006C137309 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventLoopBase::Run
+000000006C3BB221 000000000081DCE0 000000006EB736B0 00000000089CB960  wxmsw313u_gcc_cb.dll!wxDialog::ShowModal
+000000006C68B4D6 00000000089CB960 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxWizard::RunWizard
+000000006EB4EB91 00000000089CB8C0 0000000000000004 000000000081ED90  scriptedwizard.dll!0xeb91
+0000000070A65949 00000000094F4440 000000000081E990 000000000081ED90  codeblocks.dll!TemplateManager::NewFromTemplate
+0000000070A65899 00000000094F4440 0000000000000000 000000000081ED90  codeblocks.dll!TemplateManager::New
+000000000047113C 00000000034FDBC0 000000000081F5A0 00000000000000A1  codeblocks.exe!0x7113c
+000000006C103194 000000000081F470 00007FFFF98413BB 0000000000000000  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::CallEventHandler
+000000006C260372 00000000036C0950 00007FFFF984138D 000000000081F4D0  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEventIfMatchesId
+000000006C260537 00000000034FDBC0 00007FFFF984331F 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventHashTable::HandleEvent
+000000006C260B8D 0000000000000000 0000000080009011 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::TryHereOnly
+000000006C260613 0000000007FA1020 000000000081F5A0 0000000007FFDBE0  wxmsw313u_gcc_cb.dll!wxEvtHandler::DoTryChain
+000000006C260CE1 0000000000000048 0000000000000001 0000000000000000  wxmsw313u_gcc_cb.dll!wxEvtHandler::ProcessEvent
+000000006C5A7D88 0000000000030000 000000006C2182B0 0000000002A65CD0  wxmsw313u_gcc_cb.dll!wxWindowBase::TryAfter
+000000006C26296B 0000000000000005 000000006C29698C 0000000100000001  wxmsw313u_gcc_cb.dll!wxEvtHandler::SafelyProcessEvent
+000000006C54C770 0000000000000007 0000000000000000 0000000000000001  wxmsw313u_gcc_cb.dll!wxMenuBase::DoProcessEvent
+000000006C54C88A 0000000000000000 000000000036051C 0000000000000005  wxmsw313u_gcc_cb.dll!wxMenuBase::SendEvent
+000000006C3CDA1A 0000000000000000 0000000000000000 0000000000000000  wxmsw313u_gcc_cb.dll!wxFrame::HandleCommand
+000000006C3CF88F 0000000000000000 0000000000000111 0000000000000000  wxmsw313u_gcc_cb.dll!wxFrame::MSWWindowProc
+00007FFFFD8D52A1 000000000081FA10 000000006C3681C0 00000000000109E2  USER32.dll!UserCallWinProcCheckWow
+00007FFFFD8D2E0D 000000000081FA10 00000000096CF270 0000000000000001  USER32.dll!DispatchMessageWorker
+000000006C38F441 00000000000109E2 0000000000000111 0000000000008383  wxmsw313u_gcc_cb.dll!wxGUIEventLoop::Dispatch
+000000006C1375A3 0000000000000040 00007FFFFE8CD6C0 0000000000000000  wxmsw313u_gcc_cb.dll!wxEventLoopManual::ProcessEvents
+000000006C137671 0000000002A65CD0 00000000096CF270 0000000000000008  wxmsw313u_gcc_cb.dll!wxEventLoopManual::DoRun
+000000006C137309 000000000939C9A0 000000020000001C 000000000D8B6970  wxmsw313u_gcc_cb.dll!wxEventLoopBase::Run
+000000006C107F1A 0000000002A65D60 0000000002A4CC88 0000000000000042  wxmsw313u_gcc_cb.dll!wxAppConsoleBase::MainLoop
+0000000000405422 0000000002A65CD0 000000006C26D6BB 00000000009980D2  codeblocks.exe!0x5422
+000000006C17FBD5 0000000000000008 0000000000000021 0000000002A1FDB0  wxmsw313u_gcc_cb.dll!wxEntryReal
+0000000000402291 0000000000400000 0000000000000000 0000000000998FC3  codeblocks.exe!0x2291
+00000000004013C7 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x13c7
+00000000004014CB 0000000000000000 0000000000000000 0000000000000000  codeblocks.exe!0x14cb
+00007FFFFE5AE8D7 0000000000000000 0000000000000000 000004F0FFFFFB30  KERNEL32.DLL!BaseThreadInitThunk
+00007FFFFF7DBF2C 0000000000000000 0000000000000000 0000000000000000  ntdll.dll!RtlUserThreadStart
+
+codeblocks.exe	20.3.0.0
+ntdll.dll   	10.0.26100.3037
+KERNEL32.DLL	10.0.26100.3037
+KERNELBASE.dll	10.0.26100.3037
+msvcrt.dll  	7.0.26100.1882
+SHELL32.dll 	10.0.26100.3037
+msvcp_win.dll	10.0.26100.1882
+COMCTL32.dll	6.10.26100.3037
+ucrtbase.dll	10.0.26100.3037
+GDI32.dll   	10.0.26100.2033
+USER32.dll  	10.0.26100.3037
+win32u.dll  	10.0.26100.3194
+gdi32full.dll	10.0.26100.3037
+libgcc_s_seh-1.dll
+libstdc++-6.dll
+SHFOLDER.dll	10.0.26100.1
+codeblocks.dll
+wxmsw313u_gcc_cb.dll	3.1.3.0
+ADVAPI32.dll	10.0.26100.2033
+sechost.dll 	10.0.26100.3037
+RPCRT4.dll  	10.0.26100.3037
+exchndl.dll 	0.9.1.0
+comdlg32.dll	10.0.26100.3037
+PSAPI.DLL   	10.0.26100.1
+combase.dll 	10.0.26100.3037
+shcore.dll  	10.0.26100.3194
+SHLWAPI.dll 	10.0.26100.3037
+libwinpthread-1.dll	1.0.0.0
+ole32.dll   	10.0.26100.3037
+OLEAUT32.dll	10.0.26100.3037
+VERSION.dll 	10.0.26100.1150
+mgwhelp.dll 	0.9.1.0
+OLEACC.dll  	7.2.26100.3037
+UxTheme.dll 	10.0.26100.3037
+WINMM.dll   	10.0.26100.3037
+WINSPOOL.DRV	10.0.26100.3037
+cfgmgr32.dll	10.0.26100.3037
+dbghelp.dll 	10.0.17134.12
+WSOCK32.dll 	10.0.26100.1
+WS2_32.dll  	10.0.26100.1882
+dbgcore.DLL 	10.0.17134.12
+IMM32.DLL   	10.0.26100.1150
+CRYPTSP.dll 	10.0.26100.2454
+rsaenh.dll  	10.0.26100.2894
+CRYPTBASE.dll	10.0.26100.2894
+bcryptPrimitives.dll	10.0.26100.3037
+kernel.appcore.dll	10.0.26100.1591
+AudioDevProps2.dll	2.6.28.0
+windows.storage.dll	10.0.26100.3194
+MSCTF.dll   	10.0.26100.3037
+SspiCli.dll 	10.0.26100.3037
+textinputframework.dll	10.0.26100.3194
+CoreMessaging.dll	10.0.26100.3194
+CoreUIComponents.dll	10.0.26100.3037
+wintypes.dll	10.0.26100.3037
+clbcatq.dll 	2001.12.10941.16384
+dataexchange.dll	10.0.26100.3037
+twinapi.appcore.dll	10.0.26100.3037
+WindowsCodecs.dll	10.0.26100.3037
+profapi.dll 	10.0.26100.3037
+msftedit.DLL	10.0.26100.3037
+TextShaping.dll	10.0.26100.3037
+Windows.Globalization.dll	10.0.26100.3037
+globinputhost.dll	10.0.26100.3037
+Bcp47Langs.dll	10.0.26100.1882
+abbreviations.dll
+astyle.dll
+autosave.dll
+AutoVersioning.dll
+BrowseTracker.dll
+byogames.dll
+cb_koders.dll
+Cccc.dll
+classwizard.dll
+codecompletion.dll
+codesnippets.dll
+codestat.dll
+compiler.dll
+copystrings.dll
+CppCheck.dll
+Cscope.dll
+debugger.dll
+defaultmimehandler.dll
+devpakupdater.dll
+DoxyBlocks.dll	1.7.663.8397
+DragScroll.dll
+EditorConfig.dll
+EditorTweaks.dll
+envvars.dll
+Exporter.dll
+FileManager.dll
+FortranProject.dll
+headerfixup.dll
+help_plugin.dll
+HHCTRL.OCX  	10.0.26100.3037
+HexEditor.dll
+IncrementalSearch.dll
+keybinder.dll
+lib_finder.dll
+wxflatnotebook.dll
+MouseSap.dll
+NassiShneiderman.dll
+OccurrencesHighlighting.dll
+openfileslist.dll
+Profiler.dll
+ProjectOptionsManipulator.dll
+projectsimporter.dll
+RegExTestbed.dll
+ReopenEditor.dll
+rndgen.dll
+scriptedwizard.dll
+SmartIndentCpp.dll
+SmartIndentFortran.dll
+SmartIndentHDL.dll
+SmartIndentLua.dll
+SmartIndentPascal.dll
+SmartIndentPython.dll
+SmartIndentXML.dll
+SpellChecker.dll
+SymTab.dll
+ThreadSearch.dll
+wxcustombutton.dll
+todo.dll
+ToolsPlus.dll
+wxsmith.dll
+wxsmithlib.dll
+wxSmithAui.dll
+wxSmithContribItems.dll
+wxchartctrl.dll
+wxdatetimepicker.dll
+wxkwic.dll
+wxled.dll
+wxmathplot.dll
+wxspeedbutton.dll
+wximagepanel.dll
+xpmanifest.dll
+apphelp.dll 	10.0.26100.3037
+msimg32.dll 	10.0.26100.1882
+dwmapi.dll  	10.0.26100.3037
+tiptsf.dll  	10.0.26100.3037
+sxs.dll     	10.0.26100.1
+UIAutomationCore.DLL	7.2.26100.3037
+edputil.dll 	10.0.26100.3037
+OneCoreCommonProxyStub.dll	10.0.26100.3037
+propsys.dll 	7.0.26100.3037
+Windows.FileExplorer.Common.dll	10.0.26100.3037
+vaultcli.dll	10.0.26100.1882
+ntshrui.dll 	10.0.26100.3037
+srvcli.dll  	10.0.26100.1150
+cscapi.dll  	10.0.26100.1
+Windows.StateRepositoryPS.dll	10.0.26100.1882
+windows.staterepositoryclient.dll	10.0.26100.3037
+StructuredQuery.dll	7.0.26100.3037
+icu.dll     	72.1.0.2
+thumbcache.dll	10.0.26100.1882
+policymanager.dll	10.0.26100.3037
+msvcp110_win.dll	10.0.26100.1150
+OneCoreUAPCommonProxyStub.dll	10.0.26100.3037
+Windows.System.Launcher.dll	10.0.26100.3037
+windows.staterepositorycore.dll	10.0.26100.1882
+Windows.Storage.Search.dll	10.0.26100.3037
+urlmon.dll  	11.0.26100.3194
+iertutil.dll	11.0.26100.3037
+netutils.dll	10.0.26100.1882
+cldapi.dll  	10.0.26100.1882
+FileSyncShell64.dll	25.10.119.2
+CRYPT32.dll 	10.0.26100.3037
+bcrypt.dll  	10.0.26100.3037
+Secur32.dll 	10.0.26100.1
+WININET.dll 	11.0.26100.3037
+WTSAPI32.dll	10.0.26100.3037
+USERENV.dll 	10.0.26100.2454
+EhStorShell.dll	10.0.26100.1882
+SETUPAPI.dll	10.0.26100.3037
+gdiplus.dll 	10.0.26100.3037
+DWrite.dll  	10.0.26100.3037
+wtdccm.dll
+Windows.UI.dll	10.0.26100.3037
+DUI70.dll   	10.0.26100.1882
+DUser.dll   	10.0.26100.1882
+explorerframe.dll	10.0.26100.3037
+xmllite.dll 	10.0.26100.1150
+atlthunk.dll	10.0.26100.1
+windowsudk.shellcommon.dll	10.0.26100.3194
+Windows.UI.Immersive.dll	10.0.26100.3037
+MPR.dll     	10.0.26100.1882
+p9np.dll    	10.0.26100.3037
+drprov.dll  	10.0.26100.1
+ntlanman.dll	10.0.26100.1882
+davclnt.dll 	10.0.26100.1
+WINSTA.dll  	10.0.26100.3037
+wkscli.dll  	10.0.26100.1882
+dlnashext.dll	10.0.26100.3037
+PlayToDevice.dll	10.0.26100.1882
+DevDispItemProvider.dll	10.0.26100.1150
+coml2.dll   	10.0.26100.1882
+LINKINFO.dll	10.0.26100.1
+twinapi.dll 	10.0.26100.3037
+MMDevApi.dll	10.0.26100.3037
+AudioSes.dll	10.0.26100.3037
+DEVOBJ.dll  	10.0.26100.1150
+wpdshext.dll	10.0.26100.3037
+PortableDeviceApi.dll	10.0.26100.1150
+WINTRUST.dll	10.0.26100.3037
+MSASN1.dll  	10.0.26100.2894
+EhStorAPI.dll	10.0.26100.1882
+ProductInfo.dll	1.10.4.0
+ASM.Plugin.AudioDevProps2.dll	1.0.1.0
+NetworkExplorer.dll	10.0.26100.1150
+mssprxy.dll 	7.0.26100.3037
+shacct.dll  	10.0.26100.1882
+qingnse64.dll	12.9.0.19439
+ntmarta.dll 	10.0.26100.1150
+IDStore.dll 	10.0.26100.1150
+SAMLIB.dll  	10.0.26100.3037
+qingshellext64.dll	12.1.0.19302
+wlidprov.dll	10.0.26100.3037
+samcli.dll  	10.0.26100.1150
+kwpsshellext64.dll	12.1.0.19302
+kpluginconfigcenter64.dll	12.1.0.19302
+XLContextMenu.dll	2.0.30.1162
+imagehlp.dll	10.0.26100.1150
+gpapi.dll   	10.0.26100.1882
+cryptnet.dll	10.0.26100.3037
+ludpx64.dll 	2.1.6.11081
+WINHTTP.dll 	10.0.26100.3037
+IPHLPAPI.DLL	10.0.26100.3194
+SensApi.dll 	10.0.26100.1
+nvshext.dll 	1.2.0.1
+pdfsdkmenu64.dll	2024.9.29.748
+wbemprox.dll	10.0.26100.1000
+wbemcomn.dll	10.0.26100.1150
+aipicsdkmenu64.dll	2025.1.13.748
+wbemsvc.dll 	10.0.26100.1000
+fastprox.dll	10.0.26100.3037
+amsi.dll    	10.0.26100.1150
+mrmcorer.dll	10.0.26100.3037
+bcp47mrm.dll	10.0.26100.3037
+NSI.dll     	10.0.26100.2894
+dhcpcsvc6.DLL	10.0.26100.3194
+dhcpcsvc.DLL	10.0.26100.3194
+DNSAPI.dll  	10.0.26100.3194
+mswsock.dll 	10.0.26100.3194
+WINNSI.DLL  	10.0.26100.2894
+webio.dll   	10.0.26100.3037
+rasadhlp.dll	10.0.26100.1150
+fwpuclnt.dll	10.0.26100.3037
+schannel.DLL	10.0.26100.3037
+ncrypt.dll  	10.0.26100.2894
+NTASN1.dll  	10.0.26100.1882
+ncryptsslp.dll	10.0.26100.1882
+DPAPI.DLL   	10.0.26100.1
+LAVRightBtnExt.dll	5.1.70.6261
+appresolver.dll	10.0.26100.3037
+StartTileData.dll	10.0.26100.3037
+StartMenu.dll	2124.33803.0.0
+MSVCP140_APP.dll	14.39.33519.0
+VCRUNTIME140_1_APP.dll	14.39.33519.0
+VCRUNTIME140_APP.dll	14.39.33519.0
+twext.dll   	10.0.26100.3037
+WorkfoldersShell.dll	10.0.26100.1882
+kdesktopshellext64.dll	12.1.0.19302
+virtdisk.dll	10.0.26100.1591
+Wldp.dll    	10.0.26100.3037
+MSWB70804.dll	10.0.26100.1150
+NL7Data0804.dll	10.0.26100.1150
+CHARTV.dll  	10.0.26100.1
+symsrv.dll  	10.0.17134.12
+ondemandconnroutehelper.dll	10.0.26100.1882
+
+Windows 10.0.26100
+DrMingw 0.9.1
+
